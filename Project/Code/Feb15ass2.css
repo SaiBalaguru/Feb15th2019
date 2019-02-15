@@ -1,0 +1,15 @@
+div.a{
+   /* border: 2px blue solid;*/
+    width: 1000px;
+    margin: 20px;
+    
+    
+}
+.arrange-horizontally{
+    display: inline-block;
+   padding-inline-end: 5 px;
+}
+aside{
+    float: right;
+    padding: 50px;
+}

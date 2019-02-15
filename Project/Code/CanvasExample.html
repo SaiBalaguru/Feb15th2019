@@ -1,0 +1,38 @@
+<!--<html>
+    <body>
+         <canvas width="1000" height="500" id = "scanvas" ></canvas> 
+        <script> var canvas = document.getElementById('canvas');
+        var c = canvas.getContext('2d'); 
+        /*c.fillStyle = "blue";*/
+        c.beginPath();
+        c.arc(100,50, 50, 0, 2 * MATH.PI);
+
+        /*c.lineTo(126,90);*/
+       /* c.closePath(); */
+       /* c.fill();*/ 
+        /*c.strokeStyle = 'rgb(0,128,0)';*/ 
+        c.lineWidth = 5;
+        c.stroke(); 
+       /* c.fillStyle = "Blue";
+        c.font = "bold "+"56"+"pt Arial";
+        c.fillText("I miss my Childhood days!", 30,100); */
+        </script>
+    </body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="350" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(100, 150, 50, 0, 2 * Math.PI);
+ctx.stroke();
+</script> 
+
+</body>
+</html>
