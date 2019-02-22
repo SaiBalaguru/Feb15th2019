@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Bar Graph in HTML</title>
+    </head>
+    <body>
+        <canvas width= "1000px"  height = "500px" id = "mycanvas" style = "border:1px solid black" ></canvas>
+        <script>
+        var canvas = document.getElementById("mycanvas");
+        var c = canvas.getContext('2d'); 
+        c.fillStyle = "blue";
+        c.beginPath();
+        c.moveTo(50,50);
+        c.lineTo(50,400);
+        c.lineWidth = 5;
+        c.stroke();
+        </script>
+    </body>
+</html>

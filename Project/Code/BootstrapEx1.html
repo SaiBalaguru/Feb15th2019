@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Application Form in bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <script 
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous">
+    </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<style>
+ div.name{
+     text-align: right;
+     padding: 2px;
+     border: 3px;
+     width: 10%;
+ }
+ div.name1{
+     text-align: center;
+ }
+ 
+</style>
+</head>
+<body>
+<div class = "container-fluid">    
+    <div class = "Row">
+        <div class = "name1" id="Name">
+        <div class = "col-md-12"> Application Form </div>
+    </div>
+    </div>
+    <br>
+    <div class = "row" id = >
+        <div class = "name">
+        <div class = "col-md-4" > Username </div> </div>
+            <div class = "col-md-4"> 
+            <input class="form-control" type = "text" name = "Username" id = "value1">
+            </div>
+    </div>
+    <br>
+    <div class = "row">
+        <div class = "name">
+        <div class = "col-md-4" id="Password"> password </div> </div>
+            <div class = "col-md-4"> 
+                    <input class = "form-control" type = "text" id="value3" name = "Password">
+            </div>
+    </div>
+    <br>
+    <div class = "row">
+        <div class = "name">
+        <div class = "col-md-4"id="Gender"> Gender </div> </div>
+            <div class = "col-md-2"> 
+                        <input type = "radio" name = "Gender" value="Male" id="value4"> Male <br>
+            </div>
+            <div class = "col-md-2"> 
+                    <input type = "radio" name = "Gender" value="Female" id = "value5" > Female <br>
+            </div>
+    </div>
+    <br>
+    <div class = "row">
+        <div class = "name">
+            <div class = "col-md-4" id = "Country"> Country </div> 
+        </div>
+        <div class = "col-md-4">
+            <select>
+            <option value="A"> A </option>
+            <option value="B"> B </option>
+            <option value="C"> C </option>
+            <option value="D"> D </option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
+    <div class = "row">
+        <button class="btn btn-primary offset-md-4" onclick="clicker()" id = "value2"> Submit </button>
+    </div>
+    <script src="BootstrapEx1.js"></script>
+</body>
+</html>
