@@ -11,5 +11,7 @@ child.addEventListener('click',function(a){
 var btn2 = document.querySelector('#btn1');
 btn2.addEventListener('click',function(e){
     e.preventDefault();
+    console.log("See below");
+    console.log(this);
     alert("Right Click is disabled");
 })
